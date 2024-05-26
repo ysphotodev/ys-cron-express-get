@@ -8,7 +8,7 @@ const port = 3000;
 // Function to make GET request
 const makeGetRequest = async () => {
     try {
-        const response = await axios.get('https://ys.od.ua/catalog');
+        const response = await axios.get('https://strapi-ys-app-main.onrender.com/admin');
         console.log('Response data:', response.data);
     } catch (error) {
         console.error('Error making GET request:', error);
